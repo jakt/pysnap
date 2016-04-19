@@ -79,8 +79,8 @@ def request(endpoint, auth_token, data=None, files=None,
     if data is None:
         data = {}
     headers = {
-        'User-Agent': 'Snapchat/9.2.0.0 (A0001; '
-                      'Android 4.4.4#5229c4ef56#19; gzip)',
+        'User-Agent': 'Snapchat/9.16.2.0 '
+                      '(HTC One; Android 5.0.2#482424.2#21; gzip)',
         'Accept-Language': 'en-US;q=1, en;q=0.9',
         'Accept-Locale': 'en'
     }
